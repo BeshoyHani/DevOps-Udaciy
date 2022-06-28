@@ -19,7 +19,7 @@ Refer to [Dependencies](docs/dependancies.md) document.
     2) Elastic Beanstalk <img src="images/eb.png">
 
     3) S3
-        - Frontend Bucket <img src="images/s3fe.png">
+        - Frontend Bucket <img src="./images/s3fe.png">
         - User Images Bucket <img src="images/s3.png">
 - Circle CI
     1) Circle CI Succeeded Build  <img src="images/cicd.png">
