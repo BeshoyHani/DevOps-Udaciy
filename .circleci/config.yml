@@ -24,23 +24,19 @@ jobs:
             echo $(node --version)
             echo "NPM --version" 
             echo $(npm --version)
-            npm run frontend:install
-      # TODO: Install dependencies in the the backend API          
+            npm run frontend:install          
       - run:
           name: Install API Dependencies
           command: |
             npm run api:install
-      # TODO: Lint the frontend
       - run:
           name: Front-End Lint
           command: |
             npm run frontend:lint
-      # TODO: Build the frontend app
       - run:
           name: Front-End Build
           command: |
-            echo "TODO: Build the frontend app"
-      # TODO: Build the backend API      
+            npm run frontend:build      
       - run:
           name: API Build
           command: |
@@ -58,8 +54,17 @@ jobs:
       - checkout
       - run:
           name: Deploy App
-          # TODO: Install, build, deploy in both apps
           command: |
+            eb setenv \
+            JWT_SECRET=$JWT_SECRET \
+            POSTGRES_PASSWORD=$POSTGRES_PASSWORD \
+            POSTGRES_USERNAME=$POSTGRES_USERNAME \
+            POSTGRES_HOST=$DB_HOST \
+            POSTGRES_DB=$DB_NAME \
+            AWS_BUCKET=$AWS_BUCKET \
+            AWS_REGION=$AWS_REFION \
+            AWS_PROFILE=$AWS_PROFILE \
+            URL=$URL \
             npm run deploy
             
 workflows:
