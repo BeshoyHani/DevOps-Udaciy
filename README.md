@@ -16,11 +16,11 @@ Refer to [Dependencies](docs/dependancies.md) document.
 ## Screenshots
 - AWS
     1) RDS <img src="https://github.com/BeshoyHani/DevOps-Udaciy/blob/master/images/rds.PNG">
-    2) Elastic Beanstalk <img src="https://github.com/BeshoyHani/DevOps-Udaciy/blob/master/images/eb.png">
+    2) Elastic Beanstalk <img src="https://github.com/BeshoyHani/DevOps-Udaciy/blob/master/images/eb.PNG">
 
     3) S3
-        - Frontend Bucket <img src="https://github.com/BeshoyHani/DevOps-Udaciy/blob/master/images/s3fe.png">
-        - User Images Bucket <img src="https://github.com/BeshoyHani/DevOps-Udaciy/blob/master/images/s3.png">
+        - Frontend Bucket <img src="https://github.com/BeshoyHani/DevOps-Udaciy/blob/master/images/s3fe.PNG">
+        - User Images Bucket <img src="https://github.com/BeshoyHani/DevOps-Udaciy/blob/master/images/s3.PNG">
 - Circle CI
-    1) Circle CI Succeeded Build  <img src="https://github.com/BeshoyHani/DevOps-Udaciy/blob/master/images/cicd.png">
-    2) Circle CI Secrets  <img src="https://github.com/BeshoyHani/DevOps-Udaciy/blob/master/images/circle_secrets.png">
+    1) Circle CI Succeeded Build  <img src="https://github.com/BeshoyHani/DevOps-Udaciy/blob/master/images/cicd.PNG">
+    2) Circle CI Secrets  <img src="https://github.com/BeshoyHani/DevOps-Udaciy/blob/master/images/circle_secrets.PNG">
