@@ -66,6 +66,7 @@ jobs:
             AWS_REGION=$AWS_REGION \
             AWS_PROFILE=$AWS_PROFILE \
             URL=$URL
+            cd ../../
             npm run deploy
             
 workflows:
