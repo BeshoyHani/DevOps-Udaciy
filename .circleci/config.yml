@@ -65,7 +65,7 @@ jobs:
             AWS_BUCKET=$AWS_BUCKET \
             AWS_REGION=$AWS_REGION \
             AWS_PROFILE=$AWS_PROFILE \
-            URL=$URL \
+            URL=$URL
             npm run deploy
             
 workflows:
