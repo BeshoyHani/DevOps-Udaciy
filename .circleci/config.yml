@@ -55,6 +55,7 @@ jobs:
       - run:
           name: Deploy App
           command: |
+            cd udagram/udagram-api/www
             eb setenv \
             JWT_SECRET=$JWT_SECRET \
             POSTGRES_PASSWORD=$POSTGRES_PASSWORD \
@@ -62,7 +63,7 @@ jobs:
             POSTGRES_HOST=$DB_HOST \
             POSTGRES_DB=$DB_NAME \
             AWS_BUCKET=$AWS_BUCKET \
-            AWS_REGION=$AWS_REFION \
+            AWS_REGION=$AWS_REGION \
             AWS_PROFILE=$AWS_PROFILE \
             URL=$URL \
             npm run deploy
